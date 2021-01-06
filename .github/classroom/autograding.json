@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "ex1",
+      "setup": "sudo apt update && sudo apt install octave octave-symbolic",
+      "run": "octave --eval \"source('student.m'); assert(exercise1()(10), 21); assert(exercise1()(50), 101)\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 50
+    },
+    {
+      "name": "ex2",
+      "setup": "sudo apt update && sudo apt install octave octave-symbolic",
+      "run": "octave --eval \"source('student.m'); assert(exercise2()(4), 8); assert(exercise1()(6), 18)\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 50
+    }
+  ]
+}
