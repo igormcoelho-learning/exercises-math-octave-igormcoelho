@@ -13,7 +13,7 @@
     {
       "name": "ex2",
       "setup": "sudo apt update && sudo apt install octave octave-symbolic",
-      "run": "octave --eval \"source('student.m'); assert(exercise2()(4), 8); assert(exercise1()(6), 18)\"",
+      "run": "octave --eval \"source('student.m'); assert(exercise2()(4), 8); assert(exercise2()(6), 18)\"",
       "input": "",
       "output": "",
       "comparison": "included",
