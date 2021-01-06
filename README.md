@@ -2,7 +2,7 @@
 
 This math exercise is a demonstration of using Octave for autograding using GitHub Classroom.
 
-![workflow badge](https://github.com/actions/exercises-math-octave-igormcoelho/workflows/.github/workflows/classroom.yml/badge.svg)
+![workflow badge](https://github.com/igormcoelho-learning/exercises-math-octave-igormcoelho/workflows/GitHub%20Classroom%20Workflow/badge.svg)
 
 If you are an instructor/teacher/professor, feel free to learn more on how to create these tests in this post:
 
